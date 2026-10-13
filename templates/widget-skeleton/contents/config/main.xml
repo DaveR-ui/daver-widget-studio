@@ -1,0 +1,25 @@
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <entry name="pollIntervalSeconds" type="Int">
+      <label>How often the widget runs the probe, in seconds.</label>
+      <default>15</default>
+      <min>2</min>
+      <max>300</max>
+    </entry>
+
+    <entry name="panelIcon" type="String">
+      <label>Icon shown in the panel. Any icon name available in the active theme.</label>
+      <default>folder-symbolic</default>
+    </entry>
+
+    <entry name="showDetails" type="Bool">
+      <label>List the probe's detail lines in the popup.</label>
+      <default>true</default>
+    </entry>
+  </group>
+</kcfg>

@@ -1,0 +1,20 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "DaveR-ui"
+            }
+        ],
+        "Category": "System Information",
+        "Description": "A starting point for a Plasma 6 panel widget: probes a fixed command, shows a state and a severity dot, and offers one action. Replace the probe with your own command.",
+        "Icon": "/icons/widget.svg",
+        "Id": "@WIDGET_ID@",
+        "License": "MIT",
+        "Name": "@WIDGET_NAME@",
+        "Version": "0.1.0",
+        "Website": "https://github.com/DaveR-ui/daver-widget-studio",
+        "BugReportUrl": "https://github.com/DaveR-ui/daver-widget-studio/issues"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

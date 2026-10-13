@@ -1,0 +1,8 @@
+[submodule "widgets/tuya-bulb-widget"]
+	path = widgets/tuya-bulb-widget
+	url = https://github.com/DaveR-ui/tuya-bulb-widget.git
+	branch = main
+[submodule "widgets/docker-status-widget"]
+	path = widgets/docker-status-widget
+	url = https://github.com/DaveR-ui/docker-status-widget.git
+	branch = master

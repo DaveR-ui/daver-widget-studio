@@ -1,0 +1,12 @@
+# Scratch output of tools/new-widget.sh (see docs/protocols/create-a-new-widget.md).
+build/
+
+# Node / tooling scratch
+node_modules/
+
+# Local agent runtime state (never part of the corpus)
+.atl/
+.opencode/
+opencode.json
+
+# Widget repos are git submodules under widgets/ — their own .gitignore applies.
